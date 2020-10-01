@@ -211,11 +211,11 @@ def feature_extract(url_input):
         # Feature['exe_in_url']=exe_in_url(url_input)
         Feature['ASNno']=getASN(host)
         Feature['safebrowsing']=safebrowsing(url_input)
+         
         """wfeatures=web_content_features(url_input)
-        
         for key in wfeatures:
-            Feature[key]=wfeatures[key]
-        """
+            Feature[key]=wfeatures[key] """
+      
         #debug
         # for key in Feature:
         #print key +':'+str(Feature[key])
